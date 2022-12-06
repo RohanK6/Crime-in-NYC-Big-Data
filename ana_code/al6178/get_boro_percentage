@@ -1,0 +1,3 @@
+SELECT boro,  (count(*)/12395)*100 as percent_group
+FROM shooting_data 
+GROUP BY boro;
