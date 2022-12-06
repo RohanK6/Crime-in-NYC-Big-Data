@@ -43,9 +43,13 @@ However, Hive CLI is deprecated and migration to Beeline is recommended.
 ## Results of runs
 
 The results of the run can be found in the HDFS Directories of each of 
+	
 	al6178 (the etl_code results will be in /user/al6178/CrimeProject/output/part-r-00000)
-        al6178 (the ana_code exports a CSV file located in /user/al6178/CrimeProject/export/000000_0)
+        
+	al6178 (the ana_code exports a CSV file located in /user/al6178/CrimeProject/export/000000_0)
+	
 	rk3904 (the etl_code results will be in “/user/rk3904/DataCleaning/output/part-r-00000) 
+	
 	rk3904 (the ana_code results will be in “user/rk3904/CrimeProject/output_18_under/000000_0 → for each file)
 
 The profiling_code does not export anything into a file, instead, the queries are run and the output of the query in the terminal is used for information to help with the ETL process.
