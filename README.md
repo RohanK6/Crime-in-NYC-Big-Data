@@ -7,6 +7,27 @@ We were curious about where crime was happening most, as well as the frequency o
 
 The project overview may be read either below or on [Medium](https://medium.com/@rk3904/trends-in-nyc-crime-an-analysis-with-mapreduce-and-hiveql-c575c7d8368b).
 
+## Table of Contents
+- [Crime Project](#crime-project)
+  * [Project Overview](#project-overview)
+    + [NYPD Data](#nypd-data)
+    + [MapReduce](#mapreduce)
+    + [Hive](#hive)
+    + [Benefit of HiveQL](#benefit-of-hiveql)
+    + [Findings](#findings)
+    + [Conclusion](#conclusion)
+  * [Directories](#directories)
+    + [ana_code](#ana-code)
+    + [data_ingest](#data-ingest)
+    + [etl_code](#etl-code)
+    + [profiling_code](#profiling-code)
+    + [screenshots](#screenshots)
+    + [test_code](#test-code)
+  * [How to build the code](#how-to-build-the-code)
+  * [How to run the code](#how-to-run-the-code)
+  * [Results of runs](#results-of-runs)
+  * [Additional Note](#additional-note)
+
 ## Project Overview
 
 ### NYPD Data
